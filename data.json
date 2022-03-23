@@ -1,0 +1,26 @@
+{
+    "name" : "template",
+    "title" : "pagina", 
+    "description" : "Mais informações sobre a pagina para o usuário",
+    "author": "Evandro Bueno",
+    "imageurl" : "",
+    "url" : "www.pagina.com.br",
+    "components" : 
+    [
+      { "name" : "imagetext", 
+      "data": { "title":"Titulo do conteúdo", "description":"Mais informações sobre o conteúdo para o usuário", "image":"https://conteudo.com.br/image.png", "url":"https://conteudo.com.br"}
+      },
+      { "name" : "card", 
+        "data":
+        {
+            "title": "Meus cards",
+            "description" : "Mais informações sobre os cards para o usuário",
+            "cards": [
+            { "title":"Card 1", "description":"Mais informações sobre card 1 para o usuário", "url":"https://card1.com.br"},
+            { "title":"Card 2", "description":"Mais informações sobre card 2 para o usuário", "url":"https://card2.com.br"},
+            { "title":"Card 3", "description":"Mais informações sobre card 3 para o usuário", "url":"https://card3.com.br"}
+          ]
+          } 
+      }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "express-app-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "request": "^2.88.2",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "serverless-offline": "^8.5.0"
+  }
+}
