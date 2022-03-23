@@ -10,7 +10,6 @@ app.use("/public", express.static(__dirname + "/public"))
 app.engine("hbs", exphbs.engine({extname: ".hbs", defaultLayout:"main.hbs"}));
 app.set("view engine", "hbs");
 
-
 async function getComponent(name, data)
 {
   return new Promise(function(resolve)
@@ -48,7 +47,6 @@ app.get("/", async (req, res) =>
     res.render("body", {title: data.title, description: data.description, author: data.author, render: await getTemplate("template", JSON.parse(data))})
   });  
 })
-
 
 app.listen(3000, () => {
   console.log("Server online")
